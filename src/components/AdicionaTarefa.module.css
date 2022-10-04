@@ -1,0 +1,34 @@
+.addTarefa{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tarefa input{
+    background-color: #454545;
+    padding: 0.8rem 15.5rem;
+    border-radius: 0.6rem;
+    border: none;
+}
+
+.buttonCriar{
+    background-color: #1E6F9F;
+    border-radius: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 0.5rem;
+    font-family: 'Inter', sans-serif;
+    padding: 0.7rem 0.9rem;
+    cursor: pointer;
+    gap: 0.3rem;
+}
+
+.buttonCriar button{
+    background-color: #1E6F9F;
+    color: #fff; 
+    border-radius: 0.5rem;
+    border: none;
+    font-size: 0.9rem;
+    cursor: pointer;
+}

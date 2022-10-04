@@ -1,8 +1,17 @@
+import { AdicionaTarefa } from './components/AdicionaTarefa'
+import { ContadorTarefas } from './components/ContadorTarefas'
+import { Header } from './components/Header'
+import styles from './global.css'
+
 
 function App() {
 
   return (
-    <h1>Hello World</h1>
+    <div>
+      <Header />
+      <AdicionaTarefa />
+      <ContadorTarefas />
+    </div>
   )
 }
 
