@@ -9,9 +9,28 @@
 }
 
 .tarefaCriada{
+    display: flex;
+    gap: 1rem;
+}
+
+.tarefaCriada h4{
     color: #4EA8DE;
+    
+}
+
+.tarefaCriada span{
+    color: #fafafa;
 }
 
 .tarefaConcluida{
+    display: flex;
+    gap: 1rem;
+}
+
+.tarefaConcluida h4{
     color: #8284FA;
+}
+
+.tarefaConcluida span{
+    color: #fafafa;
 }
